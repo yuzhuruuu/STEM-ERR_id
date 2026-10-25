@@ -67,3 +67,37 @@ Pengujian pada soal yang dijawab salah di tahap evaluasi awal:
 **Kesimpulan Utama:** *Self-Consistency* (pemanfaatan *majority voting*) sangat efektif meredam kecerobohan penalaran (*reasoning noise*) pada model kelas menengah seperti Phi-3.5-mini, namun gagal mengoreksi ketidaktahuan konseptual (*knowledge error*) yang konsisten pada model terkuat seperti Qwen2.5-3B.
 
 ## Struktur Repo
+
+├── 01_data_audit.ipynb      # audit dan pembersihan dataset IndoMMLU
+├── 02_evaluasi_model.ipynb  # evaluasi zero-shot
+├── 03_mitigasi_voting.ipynb # pengujian mitigasi self-consistency
+└── README.md
+
+## Cara Menjalankan
+
+1. Buka *notebooks* di Google Colab (Runtime → GPU).
+2. Jalankan `stem_err_id_preprocessing.ipynb` untuk membuat subset data `sains_bersih.csv`.
+3. Buka `stem_err_id_evaluasi.ipynb`. Atur `NAMA_MODEL` di sel Konfigurasi. Untuk model yang butuh *login*, isi `HF_TOKEN` dengan token Hugging Face.
+4. Jalankan sel dari atas ke bawah. Hasil tersimpan sebagai CSV.
+5. Untuk menguji efektivitas mitigasi pada soal yang salah, gunakan `stem_err_id_mitigasi.ipynb`.
+
+## Keterbatasan
+
+- IndoMMLU sudah publik sejak 2023, sehingga model baru mungkin pernah melihatnya saat pelatihan.
+- IndoMMLU tidak memiliki mapel Matematika. Cakupan proyek ini berfokus pada literasi **sains**.
+- Eksperimen tahap mitigasi dan analisis kesalahan diuji pada sampel *pilot* (100 soal). Walau menunjukkan pola yang jelas, selisih akurasi antarkelompok dengan ukuran sangat kecil sebaiknya dilihat sebagai tren empiris.
+- Data hanya berupa teks; soal yang aslinya merujuk gambar/tabel (sekitar ~1,4%) diuji tanpa menyertakan konteks visualnya.
+
+## Tim (Sistem Informasi, Universitas Negeri Semarang)
+- Annisa Yusri Nur Rochmah 
+- Alya Fuji Insani 
+- Fathimah Shaffa' Abqariyya 
+
+```bibtex
+@inproceedings{koto-etal-2023-indommlu,
+  title     = {Large Language Models Only Pass Primary School Exams in {I}ndonesia: A Comprehensive Test on {I}ndo{MMLU}},
+  author    = {Koto, Fajri and Aisyah, Nurul and Li, Haonan and Baldwin, Timothy},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  url       = {[https://aclanthology.org/2023.emnlp-main.760/](https://aclanthology.org/2023.emnlp-main.760/)}
+}
