@@ -1,106 +1,69 @@
 # STEM-Err-ID
 
-**Membedah kapan dan mengapa model bahasa kecil salah menjawab soal sains berbahasa Indonesia, serta cara menguranginya.**
+**Evaluasi dan Mitigasi Kesalahan Large Language Model Skala Kecil pada Penyelesaian Soal Science Berbahasa Indonesia**
 
 Karya untuk DIMAS-TI 2026, kategori Penambangan Data.
 
-> **Status:** dalam pengerjaan. Bagian bertanda `TBD` akan diisi setelah eksperimen selesai.
+> **Status:** Selesai. Repositori ini memuat kode, hasil audit data, dan hasil eksperimen dari makalah final.
 
-## Latar belakang
+## Latar Belakang
 
-Sekolah mulai memakai AI dalam pembelajaran, tetapi belum ada peta yang jelas tentang kapan jawaban AI untuk soal sains berbahasa Indonesia layak dipercaya. Proyek ini tidak membuat model baru. Kami **memeriksa** model terbuka berukuran kecil: di soal mana mereka salah, mengapa salah, dan apakah kesalahan itu bisa diprediksi dan dikurangi.
+Adopsi kecerdasan buatan dalam pendidikan bergerak lebih cepat daripada pemahaman tentang batas kepercayaannya, terutama untuk konteks kurikulum nasional. Proyek ini bertujuan mengevaluasi kinerja model bahasa berskala kecil (Small Language Models / SLM dengan parameter ≤4B) dalam menyelesaikan soal sains berbahasa Indonesia. Kami **memeriksa** kinerja model secara empiris: seberapa akurat mereka, di soal mana mereka rentan salah, mengapa mereka salah (termasuk fenomena *overconfidence* dan bias opsi), serta menguji sejauh mana teknik mitigasi *Self-Consistency* (majority voting) mampu memperbaiki kesalahan tersebut.
 
-## Pertanyaan penelitian
+## Tujuan Penelitian
 
-1. Seberapa akurat model terbuka kecil (≤4B parameter) pada soal sains berbahasa Indonesia, per mapel dan jenjang?
-2. Apa jenis kesalahan yang paling sering terjadi (misalnya hitungan multi-langkah, membaca tabel/grafik dalam teks, konversi satuan, istilah lokal, konsep vs hafalan)?
-3. Bisakah soal yang rawan salah diprediksi dari ciri soalnya, sebagai "lampu kuning" untuk guru?
-4. Seberapa besar perbaikan dari mitigasi ringan (self-consistency, jalur kalkulator/Python), dan pada kategori kesalahan yang mana?
+1. Menyusun subset soal sains (IPA, Fisika, Kimia, dan Biologi) dari IndoMMLU yang diaudit dan dibersihkan sebagai sumber data yang dapat direplikasi.
+2. Mengevaluasi akurasi lima SLM secara *zero-shot* dengan prosedur penilaian seragam.
+3. Mengidentifikasi pola kesalahan prediksi model (muatan angka, panjang kalimat, kalibrasi *confidence*, dan bias opsi jawaban).
+4. Menguji efektivitas *Self-Consistency* (*majority voting*) dalam memperbaiki soal yang dijawab salah pada tahap *zero-shot*, serta membandingkannya antar model.
 
 ## Data
 
-- **IndoMMLU**: soal pilihan ganda dari SD sampai seleksi PTN. Kami hanya memakai subset sains (IPA, Fisika, Kimia, Biologi).
-- Sumber: [indolem/IndoMMLU](https://huggingface.co/datasets/indolem/IndoMMLU) dan [fajri91/IndoMMLU](https://github.com/fajri91/IndoMMLU).
-- Lisensi: kartu data menyebut CC BY-NC-SA 4.0 (metadata Hugging Face menulis MIT). Kami mengikuti yang lebih ketat: atribusi wajib dan non-komersial.
-- Data **tidak** disertakan di repo ini. Unduh dari sumber aslinya. Tanggal unduh: `TBD`.
+- **Subset Sains IndoMMLU**: Setelah melalui proses audit dan pembersihan, diperoleh **2.925 soal sains bersih** yang mencakup mata pelajaran IPA, Fisika, Kimia, dan Biologi dari jenjang SD hingga seleksi masuk PTN.
+- Sumber Asli: [indolem/IndoMMLU](https://huggingface.co/datasets/indolem/IndoMMLU) dan [fajri91/IndoMMLU](https://github.com/fajri91/IndoMMLU).
+- Lisensi: CC BY-NC-SA 4.0 (atribusi wajib dan non-komersial). 
+- Data **tidak** disertakan langsung di repo ini untuk mematuhi lisensi. Silakan jalankan *script* pra-pemrosesan kami untuk menghasilkan subset data yang sama dari sumber aslinya.
 
 ## Model
 
-Model terbuka ≤4B parameter dari keluarga berbeda, dengan prompt seragam, diuji 0-shot dan few-shot.
+Model terbuka ≤4B parameter dari keluarga berbeda diuji secara *zero-shot* dan dievaluasi lebih lanjut menggunakan *Self-Consistency*.
 
-| Model | Keluarga | Versi/tanggal unduh |
+| Model | Parameter | Pendekatan Evaluasi |
 |---|---|---|
-| `TBD` | `TBD` | `TBD` |
-| `TBD` | `TBD` | `TBD` |
-| `TBD` | `TBD` | `TBD` |
-| `TBD` | `TBD` | `TBD` |
+| `Qwen2.5-3B` | ~3B | Zero-shot & Self-Consistency |
+| `Phi-3.5-mini-instruct` | ~3.8B | Zero-shot & Self-Consistency |
+| `StableLM-Zephyr-3B` | ~3B | Zero-shot |
+| `SmolLM2-1.7B-Instruct` | ~1.7B | Zero-shot |
+| `TinyLlama-1.1B-Chat-v1.0`| ~1.1B | Zero-shot & Self-Consistency |
 
 ## Metode
 
-1. **Evaluasi:** model menilai peluang huruf jawaban (A–E) untuk tiap soal, lalu dibandingkan otomatis dengan kunci jawaban. Peluang tiap opsi disimpan untuk analisis kalibrasi.
-2. **Akurasi:** dirinci per mapel dan jenjang, dibandingkan dengan leaderboard IndoMMLU.
-3. **Error mining:** soal yang salah di ≥2 model diubah menjadi embedding, diklasterkan, lalu 100–150 soal dilabeli manual menjadi taksonomi kesalahan. Kesepakatan antar-pelabel dihitung dengan Cohen's kappa.
-4. **Prediktor kerawanan:** model ringan (logistic regression atau gradient boosting) memprediksi peluang model salah dari ciri soal.
-5. **Mitigasi:** self-consistency dan/atau jalur kalkulator/Python untuk soal hitungan. Gain diukur per kategori kesalahan.
-6. **Uji kontaminasi:** urutan opsi jawaban diacak lalu akurasi dihitung ulang, untuk melihat tanda model menghafal data uji.
-
-**Metrik:** akurasi per jenjang/mapel, macro-F1 dan AUC prediktor, ECE/Brier score (kalibrasi), selisih akurasi mitigasi dengan CI bootstrap dan uji McNemar.
+1. **Audit & Preprocessing Data:** Pembersihan dataset IndoMMLU dari soal duplikat, opsi kosong, dan kunci jawaban di luar rentang opsi.
+2. **Evaluasi Awal (Zero-shot):** Menggunakan sampel uji coba (*pilot sample*) sebanyak 100 soal unik. Model menilai probabilitas huruf jawaban (A–E).
+3. **Analisis Kesalahan:** Mengelompokkan tingkat kesalahan berdasarkan karakteristik soal (muatan kuantitatif/angka vs konseptual, panjang kalimat), serta menganalisis kalibrasi *confidence* dan bias opsi jawaban.
+4. **Mitigasi (Self-Consistency):** Membangkitkan 5 jawaban independen (*temperature* = 0.7) untuk soal yang salah, lalu menggunakan *majority voting* untuk menentukan jawaban akhir.
 
 ## Hasil
 
-`TBD`
+### 1. Performa Awal (Zero-Shot)
+Pada pengujian 100 soal *pilot*:
+* **Qwen2.5-3B**: 50,0%
+* **Phi-3.5-mini**: 38,0%
+* **SmolLM2-1.7B**: 28,0% (Memiliki bias condong memilih opsi C sebesar 52,0%)
+* **StableLM-3B**: 26,0%
+* **TinyLlama-1.1B**: 22,0% (Setara tebakan acak)
 
-| Model | 0-shot | Few-shot |
-|---|---|---|
-| `TBD` | `TBD` | `TBD` |
+*Catatan: Kesalahan prediksi pada kelima SLM secara konsisten dipicu oleh muatan angka pada soal dan kompleksitas kalimat (>15 kata). Model Phi-3.5-mini juga menunjukkan fenomena overconfidence (skor keyakinan 81,7% saat menjawab salah).*
 
-## Struktur repo
+### 2. Efektivitas Mitigasi (Self-Consistency)
+Pengujian pada soal yang dijawab salah di tahap evaluasi awal:
 
-```
-.
-├── notebooks/
-│   └── stem_err_id_evaluasi.ipynb   # evaluasi model pada soal sains IndoMMLU
-├── results/                          # CSV hasil per model (id soal, jawaban, benar/salah, peluang)
-├── labels/                           # label manual taksonomi kesalahan
-└── README.md
-```
+| Model | Akurasi Awal | Akurasi Pasca-Mitigasi | Efektivitas Perbaikan |
+|---|---|---|---|
+| `Qwen2.5-3B` | 50,0% | 51,0% | **2,00%** (1 dari 50 salah diperbaiki) |
+| `Phi-3.5-mini` | 38,0% | 46,0% | **12,90%** (8 dari 62 salah diperbaiki)|
+| `TinyLlama-1.1B` | 22,0% | 27,0% | **6,41%** (5 dari 78 salah diperbaiki) |
 
-## Cara menjalankan
+**Kesimpulan Utama:** *Self-Consistency* (pemanfaatan *majority voting*) sangat efektif meredam kecerobohan penalaran (*reasoning noise*) pada model kelas menengah seperti Phi-3.5-mini, namun gagal mengoreksi ketidaktahuan konseptual (*knowledge error*) yang konsisten pada model terkuat seperti Qwen2.5-3B.
 
-1. Buka `notebooks/stem_err_id_evaluasi.ipynb` di Google Colab (Runtime → GPU).
-2. Atur `NAMA_MODEL`, `N_SHOT`, dan `PILOT` di sel Konfigurasi.
-3. Jalankan sel dari atas ke bawah. Hasil tersimpan sebagai CSV di Google Drive. Untuk model yang butuh login (misalnya Gemma), isi `HF_TOKEN` dengan token Hugging Face.
-4. Cek nama kolom di `COL` terhadap `df.columns` sebelum menjalankan penuh.
-
-Mulai dengan `PILOT = 100`, lalu ganti ke `None` untuk semua soal sains.
-
-## Keterbatasan
-
-- IndoMMLU sudah publik sejak 2023, sehingga model baru mungkin pernah melihatnya saat pelatihan. Hasil uji kontaminasi dilaporkan di bagian hasil.
-- IndoMMLU tidak memiliki mapel Matematika. Cakupan proyek ini adalah **sains**, bukan matematika.
-- Jumlah soal per mapel dan jenjang tidak merata, sehingga klaim per kategori hanya dibuat jika sampelnya cukup.
-- Kami tidak mengklaim hasil terbaik (state-of-the-art), hanya perbandingan pada kondisi yang seragam.
-
-## Sitasi
-
-Jika memakai IndoMMLU, kutip paper aslinya:
-
-```bibtex
-@inproceedings{koto-etal-2023-indommlu,
-  title     = {Large Language Models Only Pass Primary School Exams in {I}ndonesia: A Comprehensive Test on {I}ndo{MMLU}},
-  author    = {Koto, Fajri and Aisyah, Nurul and Li, Haonan and Baldwin, Timothy},
-  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2023},
-  url       = {https://aclanthology.org/2023.emnlp-main.760/}
-}
-```
-
-## Tim
-
-- `Yusri`
-- `Shaffa`
-- `Fuji`
-
-## Lisensi
-
-TIM tiba-tiba dimasti
+## Struktur Repo
