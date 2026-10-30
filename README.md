@@ -68,10 +68,40 @@ Pengujian pada soal yang dijawab salah di tahap evaluasi awal:
 
 ## Struktur Repo
 
-├── 01_data_audit.ipynb      # audit dan pembersihan dataset IndoMMLU
-├── 02_evaluasi_model.ipynb  # evaluasi zero-shot
-├── 03_mitigasi_voting.ipynb # pengujian mitigasi self-consistency
-└── README.md
+## Struktur Repo
+
+```text
+├── arsip_pilot/
+│   ├── hasil_Phi-3.5-mini-instruct_0shot_pilot.csv
+│   ├── hasil_Qwen2.5-3B_0shot_pilot.csv
+│   ├── hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv
+│   ├── hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv
+│   └── hasil_stablelm-zephyr-3b_0shot_pilot.csv
+├── 01_data_audit.ipynb
+├── 02_evaluasi_model.ipynb
+├── 03_mitigasi_voting.ipynb
+├── README.md
+├── anotasi_78_soal_salah.xlsx
+├── audit_59_soal_lanjutan.csv
+├── audit_batch_tinyllama.csv
+├── audit_taksonomi_tinyllama.csv
+├── distribusi_kategori_kesalahan_tinyllama.csv
+├── hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv
+├── hasil_mitigasi_Phi-3.5-mini.csv
+├── hasil_mitigasi_Qwen2.5-3B.csv
+├── hasil_mitigasi_TinyLlama-1.1B.csv
+├── laporan_audit.json
+├── rekap_akurasi.csv
+├── rekap_kategori_kesalahan.csv
+├── rekap_mitigasi_semua_model.csv
+├── rekap_per_kategori.csv
+├── sains_bersih.csv
+├── sains_bersih.xlsx
+├── sampel_cek_kunci_manual.csv
+├── sampel_cek_kunci_manual.xlsx
+├── tabel_deskripsi.csv
+└── tingkat_kesalahan_per_kategori_tinyllama.csv
+```
 
 ## Cara Menjalankan
 
