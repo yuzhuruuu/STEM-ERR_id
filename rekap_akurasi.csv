@@ -1,7 +1,0 @@
-file,n,akurasi,ci_bawah,ci_atas,p_maks_rata2
-hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,100,0.22,0.15,0.311,0.304
-hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,100,0.38,0.291,0.478,0.833
-hasil_Qwen2.5-3B_0shot_pilot.csv,100,0.5,0.404,0.596,0.51
-hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,100,0.28,0.201,0.375,0.4
-hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,100,0.22,0.15,0.311,0.304
-hasil_stablelm-zephyr-3b_0shot_pilot.csv,100,0.26,0.184,0.354,0.751
