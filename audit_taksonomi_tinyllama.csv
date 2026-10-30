@@ -1,0 +1,187 @@
+id,mapel,jenjang,soal,opsi_list,kunci,pred,kategori_utama,status_prediksi,status_audit,status_validitas,alasan_audit,keputusan_audit,catatan_keputusan,hasil_verifikasi,kunci_terverifikasi,referensi_verifikasi
+2311,Kimia,Seleksi PTN,"Kelarutan PbSO4 dalam air sama dengan kelarutan PbSO4 dalam air panas
+
+SEBAB
+
+Kelarutan suatu garam hanya berubah jika ada pemanasan","['Pernyataan benar, sebab benar dan saling berhubungan', 'Pernyataan benar, sebab benar, tetapi tidak berhubungan', 'Pernyataan benar, sebab salah', 'Pernyataan salah, sebab benar', 'Pernyataan salah, sebab salah']",E,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2327,Kimia,Seleksi PTN,"Sebanyak 12 gram zat nonelektrolit memiliki tekanan osmotik sebesar setengah dari tekanan osmotik 5,85 gram garam dapur. Jika volume larutan zat non elektrolit sama dengan volume garam dapur yaitu 500 mL. Berapakah massa molekul relatif zat non elektrolit tersebut? (Ar Na = 23; Cl = 35,5)","['30', '60', '120', '180', '360']",B,C,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga salah,C,Perhitungan tekanan osmotik mengarah ke Mr 120
+2454,Kimia,Seleksi PTN,"Sebanyak 0,3 atm gas hidrogen dan 0,5 atm gas I2 bereaksi pada kondisi tertentu sehingga pada saat kesetimbangan tercapai diperoleh tekanan gas HI sebesar 0,2 atm. Pada kondisi tersebut, harga Kc adalah 0,5.
+SEBAB
+Untuk reaksi kesetimbangan tersebut harga Kc = Kp","['Pernyataan benar, sebab benar dan saling berhubungan', 'Pernyataan benar, sebab benar, tetapi tidak berhubungan', 'Pernyataan benar, sebab salah', 'Pernyataan salah, sebab benar', 'Pernyataan salah, sebab salah']",A,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2463,Kimia,Seleksi PTN,"Sebanyak 50 mL larutan SO2 dititrasi dengan larutan KBrO4 0,1 M menurut reaksi:
+
+KBrO4 + 4SO2 + 4 H2O ⇋ 4H2SO4 +KBr
+
+Titik ekivalen tercapai saat volume KBrO4 ag digunakan sebanyak 50 mL
+
+Konsntrasi SO2 dalam larutan adalah...","['0,1 M', '0,2 M', '0,3 M', '0,4 M', '0,5 M']",B,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga salah,D,"Stoikiometri reaksi yang dicantumkan menghasilkan konsentrasi 0,4 M"
+2471,Kimia,Seleksi PTN,"Pembakaran isopropil alkohol ditunjukkan dengan persamaan reaksi:
+2(CH3)2CHOH(l) + 9O2(g) → 6CO2(g) + 8H2O(l)
+ΔH = -4000 kJ
+
+Jika data ΔHt O2(g) = 0 kJ, CO2(g) = -400 kJ, dan H2O(l) = -300 kJ, maka ΔHc isopropil alkohol  (kJ/mol) adalah...","['-800', '-400', '-200', '+400', '+800']",B,A,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Tidak valid sementara,Nilai entalpi dan opsi tidak konsisten,Keluarkan sementara,Data entalpi dan opsi tidak konsisten,Tidak valid,,Persamaan dan opsi tidak konsisten; hasil per mol tidak tersedia
+2511,Kimia,Seleksi PTN,"Diantara reaksi (belum setara) berikut, yang merupakan reaksi reduksi-oksidasi adalah...
+1. Ca(OH)2(aq) + H2SO4(aq) → CaSO4(s) + 2H2O(l)
+2. Pb(s) + H2SO4(aq) → PbSO4(s) + H2O(l)
+3. H2S(aq) + CdCl2(aq) → HCl(aq) + CdS (s)
+4.NaCl(aq) + F2(g) → NaF(aq) + Cl2 (g)
+","['Jika (1), (2), dan (3) benar', 'Jika (1) dan (3) benar', 'Jika (2) dan (4) benar', 'Jika hanya (4) yang benar', 'Jika semuanya benar']",C,D,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2559,Kimia,Seleksi PTN,"Sejumlah 200 mL larutan HCN 0,30 M (Ka = 5 × 10^-10) dicampurkan dengan 100 mL larutan KOH 0,30 M. kedalam cpuran tersebut ditambahkan 0,8 g NaOH padat (Mr = 40). pada 25 C, pH larutan yg terbentuk adalah...","['2', '4', '10-log 5', '10', '12']",D,B,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2571,Kimia,Seleksi PTN,Senyawa kovalen X2Y terbentuk dari atom dengan nomor atom X dan Y berturut-turut 17 dan 8. Bentuk molekul yang sesuai untuk senyawa kovalen tersebut adalah...,"['linear', 'segitiga datar', 'bentuk V', 'piramida segitiga', 'tetrahedral.']",C,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga benar,C,Cl2O memiliki bentuk molekul bengkok/V
+2580,Kimia,Seleksi PTN,"Suatu larutan dibuat dengan mencampurkan kalium klorida, KCl (Mr=74) dan 0,05 mol magnesium klorida (MgCl2) dalam 500 g air. Massa KCl yg dicampurkan agar larutan membeku pada suhu yg sama dgn larutan 90 g glukosa (Mr= 180) dalam 1 kg air adalah...","['4,5 g', '3,7 g', '2,7 g', '1,8 g', '0,9 g']",B,C,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2584,Kimia,Seleksi PTN,"Dalam wadah 10 liter pada suhu 27oC dan
+tekanan 1 atm, sebanyak 0,5 mol gas AB
+ terdisosiasi sesuai reaksi 2AB(g) → A2(g) + B2(g).
+Pada keadaan setimbang terdapat 0,2 mol gas A2, sehingga besarnya harga Kp adalah ... .
+","['0,02', '0,04', '0,4', '4,0', '12,0']",D,B,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2586,Kimia,Seleksi PTN,"Pembakaran 234 g campuran propana-butana
+dengan rasio mol 4 : 1 menghasilkan kalor
+sebesar 11.737 kJ, sedangkan untuk 248 g
+bahan bakar dengan rasio mol propanabutana 3 : 2 dilepaskan kalor sebesar 12.399
+kJ. Jumlah kalor yang dilepaskan pada
+pembakaran campuran 220 g propana dan
+290 g butana adalah ... .
+","['25.581 kJ', '25.534 kJ', '25.498 kJ', '25.460 kJ', '25.340 kJ']",D,B,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2593,Kimia,Seleksi PTN,"Pada suhu tertentu, nitrogen dan hidrogen
+bereaksi membentuk amonia.
+N2(g) + 3H2(g) ⇔ 2NH3(g)
+Jika jumlah awal N2
+, H2
+, dan NH3
+ dicampur,
+konsentrasi dari NH3
+bertambah besar.
+Pernyataan di bawah ini yang benar adalah ... .
+","['Kc > Q', 'Kc < Q', 'Kc = Q', 'Kc tidak berhingga', 'Informasi lebih dibutuhkan untuk membuat pernyataan tentang Kc']",A,B,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Tunda keputusan,,Data jumlah awal zat tampak hilang dari teks soal
+2672,Biologi,SMA,Berikut ini yang termasuk hewan endemik Indonesia adalah ....,"['kangguru', 'tarsius', 'sapi', 'buaya', 'harimau']",B,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga benar,B,Tarsius sesuai dengan pilihan hewan endemik Indonesia
+2757,Biologi,SMA,Cara untuk mengurangi polusi udara karena karbon dioksida adalah,"['membatasi jumlah kendaraan', 'menutup beberapa pabrik', 'melarang mobil menggunakan solar', 'mengadakan razia kendaraan', 'mengadakan penghijauan di kota-kota']",E,C,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga benar,E,Penghijauan membantu mengurangi CO2
+2768,Biologi,SMA,Terjadinya efek rumah kaca disebabkan oleh ....,"['banyaknya rumah yang memasang kaca', 'pantulan cahaya oleh kaca dari pertokoan', 'berlubangnya lapisan ozon oleh CFC', 'terhalangnya radiasi panas bumi sehingga kembali ke bumi', 'pembakaran yang menghasilkan karbon dioksida']",E,B,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2827,Biologi,SMA,"Jika terjadi pembuahan, setiap bulan wanita melepas satu sel telur dari ovariumnya, disebut....","['menopause', 'menstruasi', 'fertilisasi', 'kopulasi', 'ovulasi']",B,D,Konsep dan definisi,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Kunci perlu koreksi,Ovulasi merupakan istilah yang tepat,Verifikasi kunci,Jawaban konseptual mengarah pada ovulasi,Kunci diduga salah,E,Konsep ovulasi; kunci sumber asli masih perlu dikonfirmasi
+2834,Biologi,SMA,"Selain merupakan penyusun enzim, protein juga berfungsi dalam....
+","['memelihara ketegangan suatu sel', 'menjaga keseimbangan energi', 'menyusun penimbunan lemak', 'merusak zat yang bersifat racun', 'memelihara keseimbangan tekanan osmosis darah']",E,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Kunci diduga benar,E,Protein plasma membantu mempertahankan tekanan osmosis darah
+2861,Biologi,SMA,"Ibu hamil yang menggunakan ekstasi selama kehamilan dapat membahayakan kesehatan janin. Hal tersebut disampaikan para peneliti berdasarkan hasil sebuah penelitian yang melibatkan 96 wanita Inggris yang memiliki riwayat menggunakan ekstasi sebelum dan selama kehamilan sebagai peserta penelitian. Pertumbuhan bayi, kontrol motoriknya, dan perkembangan otaknya dinilai saat lahir dan ketika bayi berusia 4 bulan. Bayi yang lahir dari ibu yang menggunakan ekstasi selama kehamilan memiliki kontrol motorik serta koordinasi pada tangan dan mata lebih buruk jika dibandingkan bayi yang dilahirkan oleh ibu yang tidak mengonsumsi obat terlarang.
+(Artikel dimuat di  www.health.detik.com pada tanggal 29 Februari 2012 diakses pada tanggal 1 Agustus 2017 pukul 16.15)
+Berdasarkan artikel di atas, perkembangan motorik bayi terhambat karena ....
+","['disfungsi sistem saraf tepi', 'gangguan penjalaran impuls pada saraf simpatik', 'pertumbuhan sel saraf penyusun otak terhambat', 'jumlah sel saraf berkurang', 'cidera pada sumsum tulang belakang']",C,D,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2941,Biologi,SMA,"Hasil dari pembelahan mitosis adalah ....
+","['4 sel anakan dengan jumlah kromosom setengah dari sel induk', '2 sel anakan dengan jumlah kromososm setengah dari sel induk', '4 sel anakan dengan jumlah kromosom sama dengan sel induk', '2 sel anakan dengan jumlah kromosom sama dengan sel induk', '2 sel anakan dengan sifat sama persis dengan induk']",D,B,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+2962,Biologi,SMA,"Suatu persilangan dihibrid menghasilkan keturunan F2 dengan rasio F2 dengan rasio fenotipe 9:7. Hal ini menunjukkan adanya penyimpangan semu hukum Mendel, yaitu ....
+","['kriptomeri', 'interaksi gen (atavisme)', 'gen komplementer', 'polimeri', 'epistasis']",C,D,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3056,Biologi,SMA,"Obat-obatan   yang   termasuk   narkotika/narkoba,   jika dikonsumsi dapat membahayakan tubuh karena bersifat....","['Menurunkan transmisi saraf pada lintasan sensorik dari tali spinal dan otak', 'Menstimulasi sistemsaraf simpatik', 'Menambah keyakinan diri', 'Menghambat fungsi neuron-neuron dalam sistemsyaraf pusat', 'Menabah daya tahan tubuh']",A,B,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3120,Biologi,Seleksi PTN,Cadangan makanan yang disimpan di otot terutama adalah,"['Glikogen', 'Lemak', 'Protein', 'Mineral', 'Glukosa']",A,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3162,Biologi,Seleksi PTN,Bagian tubuh yang tidak terdapat pembuluh darahnya adalah,"['Kuku', 'Tulang pipa', 'Tulang pipih', 'Lapisan korium', 'Tulang rawan']",E,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3165,Biologi,Seleksi PTN,"Agar tekanan osmosis darah dalam jaringan tetap normal, hendaklah","['Darah mengandung zat telur dan garam-garam mineral', 'Darah mengandung karbohidrat yang cukup', 'Kadar hormon dalam darah meningkat', 'Tekanan darah dan cairan sebanding', 'Kadar vitamin dalam darah cukup']",D,B,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3174,Biologi,Seleksi PTN,"Jantung merupakan alat pompa hisap dan pompa tekan
+SEBAB
+Darah dipompa keluar oleh dinding atrium dan dihisap oleh dinding ventrikel","['Jika pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab dan akibat', 'Jika pernyataan benar, alasan benar, tapi keduanya tidak menunjukkan hubungan sebab dan akibat', 'Jika pernyataan benar dan alasan salah', 'Jika pernyataan salah dan alasan benar', 'Jika pernyataan dan alasan keduanya salah']",C,D,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3214,Biologi,Seleksi PTN,Tokoh pelindung teori Generatio Spontanea yang menggunakan air kaldu sebagai bahan percobaannya adalah,"['Aristoteles', 'Anthonie van Leewenhoek', 'Louis Pasteur', 'John Needham', 'Fransesco Red']",C,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3291,Biologi,Seleksi PTN,Tamarindus indica (asam) merupakan tumbuhan yang termasuk dalam familia,"['Moraceae', 'Papilonaceae', 'Mimosaceae', 'Caesalpinaceae', 'Euphorbiaceae']",C,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3376,Biologi,Seleksi PTN,"Kondisi fisiologis berikut ini yang terjadi karena stimulasi oleh sistem saraf simpatis
+adalah ...
+(1) pelebaran pupil mata
+(2) peningkatan detak jantung
+(3) konstriksi pembuluh darah
+(4) peningkatan sekresi kelanjar keringat","['1, 2, dan 3 benar', '1 dan 3 benar', '2 dan 4 benar', '4 benar', 'semua benar']",E,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3379,Biologi,Seleksi PTN,"Seorang yang menderita kelainan genetis berupa Ullrich congenital muscular
+dystrophy merupakan kondisi yang diakibatkan terganggunya sintesis protein yang
+menentukian kerja otot. Protein yang dimaksud adalah ...
+(1) aktin
+(2) keratin
+(3) miosin
+(4) kolagen","['1, 2, dan 3 benar', '1 dan 3 benar', '2 dan 4 benar', '4 benar', 'semua benar']",D,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3389,Biologi,Seleksi PTN,. Buaya di masukkan ke dalam kelompok hewan tetrapoda karena,"['Struktur kulitnya', 'Jumlah ruangan jantungnya', 'Jumlah kakinya', 'Sistem sirkulasi darahnya', 'Sistem reproduksinya']",C,B,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3413,Biologi,Seleksi PTN,"Kerja saraf simpatis selalu berlawanan dengan saraf parasimpatis.
+SEBAB
+Saraf simpatis dan saraf parasimpatis bekerja bersama-sama dalam mempertahankan
+kondisi homeostatis tubuh.","['Jika pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab dan akibat', 'Jika pernyataan benar, alasan benar, tapi keduanya tidak menunjukkan hubungan sebab dan akibat', 'Jika pernyataan benar dan alasan salah', 'Jika pernyataan salah dan alasan benar', 'Jika pernyataan dan alasan keduanya salah']",A,D,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3469,Biologi,Seleksi PTN,Umbi lapis pada bawang merah merupakan modifikasi dari …,"['Daun', 'Akar', 'Rimpang', 'Batang', 'Tunas']",A,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3473,Biologi,Seleksi PTN,"Sifat apa yang dimiliki oleh kelompok Eubacteria?
+(1) Reproduksi dengan pembelahan biner
+(2) Dinding sel mengandung peptidoglikan
+(3) Prokaryot uniseluler
+(4) Memiliki organel sel
+","['1, 2, dan 3 benar', '1 dan 3 benar', '2 dan 4 benar', '4 benar', 'semua benar']",E,A,Konsep dan definisi,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Ambigu,Pernyataan tentang organel sel perlu ditinjau,Tinjau manual,Pernyataan organel sel ambigu,Ambigu,,Istilah organel perlu ditafsirkan dalam konteks soal
+3535,IPA,SD,"Meletusnya gunung berapi akan membuat beberapa wilayah disekitarnya tertutup debu vulkanik.
+
+Upaya yang dapat kita lakukan untuk menjaga kesehatan paru-paru ketika terjadi hujan abu vulkanik adalah …","['memperbanyak minum air putih yang dingin', 'berada di luar ruangan agar tidak pengap', 'menggunakan kain basah sebagai masker', 'pintu dan jendela rumah dibuka agar udara berganti']",C,D,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3584,IPA,SD,Lampu lalu lintas menggunakan rangkaian ....,"['seri', 'paralel', 'campuran', 'terbuka']",B,C,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3612,IPA,SD,Planet bumi berada di antara ....,"['Merkurius dan Venus', 'Mars dan Yupiter', 'Saturnus dan Uranus', 'Venus dan Mars']",B,C,Konsep dan definisi,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Kunci perlu koreksi,Bumi berada di antara Venus dan Mars,Verifikasi kunci,Jawaban konseptual mengarah pada Venus dan Mars,Kunci diduga salah,D,Bumi berada di antara Venus dan Mars
+3655,IPA,SD,"Berikut ini merupakan benda magnetik, kecuali....","['kuningan', 'besi', 'baja', 'nikel']",A,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3683,IPA,SD,Benda yang tidak dapat menghantarkan listrik adalah....,"['Isolator listrik', 'isolator panas', 'Konduktor listrik', 'Konduktor panas']",D,C,Konsep dan definisi,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Kunci perlu koreksi,Isolator listrik adalah opsi yang sesuai,Verifikasi kunci,Jawaban konseptual mengarah pada isolator listrik,Kunci diduga salah,A,Isolator listrik tidak menghantarkan listrik
+3765,IPA,SD,Baju yang basah akan menjadi kering karena energi ... matahari,"['panas', 'cahaya', 'gerak', 'bunyi']",A,C,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3800,IPA,SD,Gaya yang dimanfaatkan untuk mengasah pisau dengan batu adalah ….Gaya yang dimanfaatkan untuk mengasah pisau dengan batu adalah ….,"['Gravitasi dan dorongan', 'Gravitasi dan pegas', 'Pegas dengan dorongan', 'Gesek dan dorongan']",D,C,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3854,IPA,SD,"Pada umumnya, bahan makanan berasal dari ..,","['Tumbuhan', 'Pabrik', 'Hutan', 'Pasar']",A,B,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3855,IPA,SD,Berikut ini yang termasuk bahan galian adalah ...,"['Minyak bumi', 'Pertanian', 'Air', 'Angin']",A,C,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3902,IPA,SD,Komodo termasuk karnivora yang digolongkan sebagai bangsa ...,"['Serangga', 'Reptil', 'Mamalia', 'Unggas']",B,C,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3904,IPA,SD,Proses eprubahan bentuk makhluk hidup dari larva hingga menjadi bentuk dewasa dinamakan ..,"['Fotosintesis', 'Sitokinesis', 'Metamorfosis', 'Gametogenesis']",C,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3906,IPA,SD,Telur kecoak menetas menjadi ...,"['Ulat', 'Larva', 'Kepompong', 'Pupa']",B,C,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3914,IPA,SD,Omnivora merupakan jenis hewan pemakan ...,"['Serangga', 'Tumbuhan dan hewan', 'Tumbuhan', 'Hewan']",B,C,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3990,IPA,SD,Pada setrika listrik tertulis data 350 watt/220 volt. Artinya ….,"['daya listriknya selalu 350 watt', 'tidak dapat dipasang pada tegangan 110 volt', 'tidak dapat dipasang pada tegangan 300 volt', 'kuat arusnya 1,6 ampere']",C,B,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+3999,IPA,SMP,Kecepatan merupakan salah satu besaran turunan yang mempunyai satuan ....,"['m/s', 'Kg', 'Newton', 'Km']",A,C,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4005,IPA,SMP,Berikut ini yang tidak termasuk Satuan Internasional adalah ....,"['Yard', 'Sekon', 'Ampere', 'Meter']",A,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4111,IPA,SMP,Perkembangbiakan pada hewan yang melalui proses fertilisasi disebut perkembangbiakan ….,"['vegetatif', 'aseksual', 'generatif', 'spora']",C,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4152,IPA,SMP,Lapisan matahari yang terlihat seperti mahkota berwarna keabu-abuan saat gerhana Matahari total adalah …..,"['inti Matahari', 'fotosfer', 'kromosfer', 'korona']",D,C,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4209,IPA,SMP,Berikut ini yang  bukan  merupakan organ penyusun sistem transportasi pada tumbuhan adalah …,"['batang', 'bunga', 'akar', 'daun']",B,C,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4233,IPA,SMP,"Pencemaran udara salah satunya disebabkan oleh gas monoksida (CO). Gas ini sangat sangat berbahaya bagi kesehatan manusia, karena dapat menyebabkan ….","['daya tahan tubuh menurun', 'penyumbatan saluran pernapasan', 'penyerapan oksigen terganggu', 'penglihatan menjadi kabur']",C,D,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4312,IPA,SMP,"Setelah meletakan preparat di atas meja preparat pada mikroskop, langkah selanjutnya
+untuk menghasilkan bayangan yang jelas adalah ....","['memutar revolver', 'mengatur diafragma', 'memutar makrometer atau mikrometer', 'menghadapkan cermin ke sumber cahaya']",C,B,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4326,IPA,SMP,"Seseorang mendengar suara petir 1,5 sekon setelah cahaya kilat. Jika kecepatan bunyi
+340 m/s dan kecepatan cahaya 3 x 108 m/s, maka jarak orang ke kilat adalah ….","['340 m', '510 m', '1020 m', '680 m']",B,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4388,IPA,SMP,"Seorang astronot di bumi beratnya 600 N. Bila percepatan gravitasi bulan 1/ 6 percepatan gravitasi bumi, maka berat astronot di bulan adalah .... ","['100 N', '160 N', '200 N', '400 N']",A,C,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4449,IPA,SMP,"Perhatikan uraian dibawah ini !
+
+1) Candida utilis
+
+2) Chlorella
+
+3) Spirulina maxima
+
+4) Bacillus thuringiensis
+
+5) Methanobacterium
+
+Jenis mikroorganisme yang dapat dimanfaatkan sebagai PST ditunjukkan oleh nomor ….","['1, 2 dan 3', '3, 4 dan 5', '1, 3 dan 5', '2, 4 dan 5']",A,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4470,IPA,SMP,Daya tarik magnetis bumi menjadi kuat karena adanya kandungan …dan … pada inti bumi.,"['Perak (Ag) dan Emas (Au)', 'Nitrogen (N) dan Besi (Fe)', 'Besi (Fe) dan Nikel (Ni)', 'Nikel (Ni) dan Tembaga (Cu)']",C,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+4471,IPA,SMP,"Perhatikan pernyataan berikut!
+
+    1. Memiliki ketebalan ±7 km
+    2. Memiliki pH yang rendah
+    3. Tersusun dari silikon dan magnet
+    4. Memiliki massa jenis 3 g/cm3
+
+Ciri-ciri kerak samudra ditunjukkan pada nomor ....","['1 dan 3', '1 dan 4', '2 dan 3', '2 dan 4']",B,C,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+6850,Fisika,SMP,Perlawanan konduktor dapat ditingkatkan dalam satu cara . . .,"['meningkatkan perbedaan potensial', 'Tambah arus', 'menambah luas penampang', 'Perpanjang kawat', 'meminimalkan perbedaan potensial']",A,D,Penerapan kontekstual,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Kunci perlu koreksi,Memperpanjang kawat meningkatkan hambatan,Verifikasi kunci,Jawaban konseptual mengarah pada memperpanjang kawat,Kunci diduga salah,D,Hambatan kawat meningkat jika panjangnya bertambah
+6868,Fisika,SMP,Tiga buah hambatan listrik dipasang secara berdampingan. Pernyataan yang tepat mengenai karakteristik rangkaian tersebut adalah ….,"['Arus listrik yang mengalir pada ketiga hambatan sama besar.', 'Arus listrik yang mengalir pada ketiga hambatan tidak dapat ditentukan karena tidak diberitahu nilai hambatan listriknya.', 'Tegangan yang mengalir pada masing-masing hambatan sama besar.', 'Hambatan total dari ketiga hambatan tersebut lebih kecil dari nilai masing-masing hambatan.']",A,B,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+6960,Fisika,SMP,Sebuah mobil menempuh jarak 6000 m dengan kecepatan 72 km/jam. Berapakah waktu yang diperlukan mobil untuk menempuh jarak tersebut?,"['100 sekon', '300 sekon', '83.33 sekon', '200 sekon']",B,C,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7009,Fisika,SMA,Pernyataan yang menggambarkan dan menjelaskan pola umum yang terjadi di alam semesta yang didukung oleh bukti ilmiah dan percobaan/eksperimen disebut…,"['fakta', 'konsep', 'prinsip', 'teori', 'hukum']",E,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7067,Fisika,SMA,"Perbandingan periode planet A dan B adalah 8 : 27. Jika jarak rata-rata planet A terhadap Matahari adalah 4 satuan astronomi (SA), maka jarak rata-rata planet B terhadap Matahari adalah ......","['4 SA', '5 SA', '7 SA', '8 SA', '9 SA']",E,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7085,Fisika,SMA,"Beberapa penerapan Hukum kekekalan momen tum sudut adalah sebagai berikut .....
+1) Seorang peluncur es yang sedang bergerak dan tiba-tiba berpegangan pada tiang mengakibatkan ia berotasi pada tiang menjadi lambat.
+2) Penari balet dalm berputar dapat bergerak cepat bila kedua tangan didekapkan pada kedua bahu.
+3) Peloncat indah dapat bergerak dengan putaran cepat bila kedua tangan dan kaki ditekuk
+
+Pernyataan yang benar adalah .....","['3 saja', '1 dan 2', '1 dan 3', '2 dan 3', '1,2 dan 3']",D,B,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7087,Fisika,SMA,Faktor yang menentukan tekanan zat cair adalah .....,"['Massa jenis zat cair', 'massa jenis dan volume zat cair', 'Volume dan kedalaman zat cair', 'massa jenis dan kedalaman zat cair', 'massa jenis, volume , dan kedalaman zat cair']",D,B,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7089,Fisika,SMA,Benda berikut yang tidak elastis adalah .....,"['karet', 'pegas', 'besi', 'penggaris plastik', 'palstisin']",E,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7091,Fisika,SMA,Sebuah pegas dengan panjang mula-mula 10 cm kemudian diberi beban ternyata panjangnya menjadi 12 cm. Besarnya regangan adalah .....,"['0,2', '1,2', '2', '12', '20']",A,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7119,Fisika,SMA,"Dalam waktu 2 sekon sebuah sebuah roda yang berotasi murni,mengalami perubahan kecepatan dari 4 rad/s menjadi 10 rad/ s secara berurutan. Sebuah titik terletak 30 cm dari poros roda. Besar percepatan tangensial yang dialami titik tersebut adalah ..... m/s²","['240', '0,9', '2,4', '4,24', '9']",B,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7247,Fisika,SMA,"Komponen elektronika yang terbuat dari bahan semikonduktor dan mempunyai tiga elektroda (triode), yaitu dasar (basis), pengumpulan (kolektor), dan pemancar (emitor) adalah . . .
+","['Dioda', 'Transistor', 'Resistor', 'T – Flip Flop', 'Counter']",B,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7267,Kimia,SMA,"Dengan jumlah atom karbon yang sama, rasio titik didih antara alkana, alkena dan alkena adalah...","['Alkana> alkena alkena> alkuna', 'Alkana = alkena = alkena', 'Alkana & lt', 'Alkene & gt', 'alkuna']",C,A,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Tidak dapat diverifikasi,Redaksi dan opsi rusak,Keluarkan sementara,Redaksi dan opsi tidak utuh,Tidak valid,,Redaksi dan opsi rusak
+7340,Kimia,SMA,HBr murni dan larutan KCl menjadi sampel untuk pengujian kekuatan elektrolit. Hasil uji yang bisa diperoleh adalah…,"['Lampu tidak menyala dengan larutan KCl', 'Ada gelembung yang terbentuk dalam lelehan HBr murni', 'Tak ada gelembung gas yang terbentuk dalam lelehan HBr murni', 'Lampu redup pada larutan KCl', 'Tak ada gelembung gas yang terbentuk pada larutan KCl']",C,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7342,Kimia,SMA,"Pada sebuah reaksi redoks, zat yang mengalami oksidasi adalah…","['Zat yang melepaskan elektron', 'Zat yang menangkap elektron', 'Zat yang melepaskan oksigen', 'Zat yang menyebabkan zat lain teroksidasi', 'Zat oksidator']",A,D,Klasifikasi dan karakteristik,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7378,Kimia,SMA,Di antara pernyataan berikut yang bukan merupakan ciri-ciri keadaan setimbang dinamis adalah …..,"['reaksi berlangsung dengan dua arah berlawanan', 'laju reaksi kedua arah sama besar', 'reaksi berlangsung terus-menerus secara mikroskopis', 'setiap komponen pada reaksi tetap ada', 'tidak terjadi perubahan mikroskopis']",E,D,Konsep dan definisi,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7384,Kimia,SMA, Reaksi di bawah ini yang menghasilkan endapan adalah …,"['CaO(s) + HCl(aq)', 'Fe2O3(s) + H2SO4(aq)', 'AgNO3(aq) + BaCl2(aq)', 'NaOH(aq) + H2SO4(aq)', 'NaOH(aq) + CH3COOH(aq)']",C,B,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7416,Kimia,SMA,Gerak brown terjadi karena …,"['Gaya gravitasi', 'Tolak-menolak antara partikel koloid yang bermuatan sama', 'Tarik-menarik antara partikel koloid yang berbeda muatan', 'Tumbukan antara partikel koloid', 'Tumbukan molekul medium dengan partikel koloid']",E,B,Penerapan kontekstual,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,
+7453,Kimia,SMA,"H dari larutan Ca(OH) 2, 0,05 M …","['10', '11', '12', '13']",C,D,Hitungan dan penerapan rumus,Salah menurut kunci dataset,Perlu verifikasi kunci/redaksi,Kunci perlu koreksi,pH teoritis 13 jika stem memang menanyakan pH,Verifikasi kunci,pH teoritis 13 jika soal memang menanyakan pH,Belum terverifikasi,,Teks soal terpotong; perlu soal lengkap
+7490,Kimia,SMA,"Berikut adalah reaksi redoks senyawa klor:
+(1) ClO2-
+ → ClO3-
+(2) ClO4-
+ → Cl-
+(3) ClO2-
+ → ClO-
+(4) ClO-
+ → ClO4-
+(5) Cl2 → ClO3-
+yang bertindak sebagai oksidator terdapat pada reaksi....","['(1) dan (2)', '(1) dan (3)', '(2) dan (3)', '(3) dan (4)', '(4) dan (5)']",C,D,Penalaran beberapa pernyataan,Salah menurut kunci dataset,Belum diverifikasi,Belum diaudit,,Belum diputuskan,,Belum diperiksa,,

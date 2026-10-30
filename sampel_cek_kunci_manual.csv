@@ -1,0 +1,51 @@
+id,mapel,jenjang,kelas,soal,opsi_list,n_opsi,kunci,panjang_soal,n_angka,rujukan_visual
+3379,Biologi,Seleksi PTN,12,"Seorang yang menderita kelainan genetis berupa Ullrich congenital muscular
+dystrophy merupakan kondisi yang diakibatkan terganggunya sintesis protein yang
+menentukian kerja otot. Protein yang dimaksud adalah ...
+(1) aktin
+(2) keratin
+(3) miosin
+(4) kolagen","[""1, 2, dan 3 benar"", ""1 dan 3 benar"", ""2 dan 4 benar"", ""4 benar"", ""semua benar""]",5,D,34,4,0
+2452,Kimia,Seleksi PTN,12.0,"Kelarutan PbI2 {(Ar I = 127; Pb = 207)} dalam 3 L air pada 25 ⁰C adalah 2,805 gram. Ksp PbI2 pada suhu ini adalah ….","[""1,8 × 10^{-8}"", ""2,0 × 10^{-8}"", ""3,2 × 10^{-8}"", ""4,0 × 10^{-8}"", ""8,0 × 10^{-8}""]",5,C,26,8,0
+4472,IPA,SMP,7.0,"Indonesia merupakan negara tropis sehingga kita hanya merasakan 2 musim, yaitu musim kemarau dan musim hujan.Akan tetapi, di daerah pegunungan Jayawijaya kita dapat mengamati salju di puncaknya. Hal ini disebabkan karena ....","[""daerah pegunungan Jayawijaya sangat tinggi sehingga tekanan udaranya sangat rendah"", ""daerah pegunungan Jayawijaya sangat tinggi sehingga tekanan udaranya sangat tinggi"", ""daerah pegunungan Jayawijaya sangat tinggi sehingga suhu udara di puncaknya sangat tinggi"", ""daerah pegunungan Jayawijaya sangat tinggi sehingga titik beku air di puncaknya sangat rendah""]",4,A,32,1,0
+2305,Kimia,Seleksi PTN,12.0,"Sebanyak 200 mL larutan NaOH dicampurkan dengan 600 mL larutan HNO2 (Ka = 2 x 10^-5) Kedua larutan itu memiliki konsentrasi yang sama. pH larutan yang terbentuk adalah… (log2 = 0,3)","[""4,4"", ""4,7"", ""9,6"", ""9"", ""9,3""]",5,A,31,9,0
+7087,Fisika,SMA,11.0,Faktor yang menentukan tekanan zat cair adalah .....,"[""Massa jenis zat cair"", ""massa jenis dan volume zat cair"", ""Volume dan kedalaman zat cair"", ""massa jenis dan kedalaman zat cair"", ""massa jenis, volume , dan kedalaman zat cair""]",5,D,8,0,0
+2936,Biologi,SMA,12,"Pada sel bakteri terjadi pembelahan....
+","[""mitosis"", ""biner dan meiosis"", ""meiosis"", ""mitosis dan meiosis"", ""biner""]",5,E,5,0,0
+7548,Kimia,SMA,12.0,"Perbandingan massa kalsium (Ca) dan massa oksigen (O) dalam pembentukan senyawa kalsium oksida (CaO) adalah 5 : 2. Bila 15 gram kalsium direaksikan dengan 10 gram Oksigen, maka banyaknya kalsium oksida yang terbentuk adalah ….","[""7 gram"", ""14 gram"", ""17 gram"", ""21 gram"", ""25 gram""]",5,D,35,4,0
+3898,IPA,SD,5,Semua benda dapat bertahan ada di atas permukaan bumi disebabkan oleh adanya ...,"[""gaya gesek"", ""gaya ke"", ""gaya magnet"", ""gaya gravitasi""]",4,D,13,0,0
+6843,Fisika,SMP,7.0,"Volume merupakan besaran turunan, yang disusun oleh besaran pokok ....","[""Massa"", ""Waktu"", ""Berat"", ""Panjang""]",4,D,10,0,0
+3771,IPA,SD,"4,5,6",Di bawah ini yang merupakan contoh dari konduksi adalah ...,"[""panas matahari sampai ke bumi"", ""air akan mengalir dari tempat yang tinggi ke rendah"", ""sendok terasa panas saat digunakan untuk mengaduk kopi panas"", ""air panas akan bergerak naik""]",4,C,10,0,0
+4036,IPA,SMP,9.0,Proses berhentinya siklus menstruasi pada wanita usia lanjut disebut ….,"[""ogenesis"", ""spermatogenesis"", ""menopause"", ""fertilisasi""]",4,C,10,0,0
+7065,Fisika,SMA,10.0,"Jika Bumi menyusut menjadi setengah semula, tapi massanya tetap, maka apa yang terjadi dengan massa benda-benda yang ada di permukaan bumi?","[""massa benda tetap"", ""berat benda tetap"", ""berat benda menjadi setengah semula"", ""berat benda menjadi dua kali semula"", ""massa benda menjadi empat kali semula""]",5,A,21,0,0
+4199,IPA,SMP,9.0,"Arus yang masuk kumparan primer sebuah trafo 1.5 A. Bila jumlah lilitan primer 500 lilitan dan lilitan sekunder 125 lilitan, maka arus yang keluar dari kumparan sekunder adalah...","[""6,0 A"", ""5,5 A"", ""4,0 A"", ""2,5 A""]",4,A,28,4,0
+4153,IPA,SMP,7.0,Susunan planet dari yang jaraknya terdekat Matahari adalah ….,"[""Merkurius, Venus, Bumi, Mars, Yupiter, Uranus, Saturnus, Neptunus"", ""Merkurius, Venus, Mars, Bumi, Yupiter, Saturnus, Uranus, Neptunus"", ""Merkurius, Venus, Mars, Bumi, Yupiter, Uranus, Saturnus, Neptunus"", ""Merkurius, Venus, Bumi, Mars, Yupiter, Saturnus, Uranus, Neptunus""]",4,D,9,0,0
+7335,Kimia,SMA,10.0,"Dari pilihan berikut ini, manakah senyawa kimia yang sama sekali tidak mampu menghantarkan arus listrik?","[""Ca(NO3)2"", ""H2CO3"", ""KNO3"", ""HBr"", ""Cl2""]",5,E,15,0,0
+2822,Biologi,SMA,11, Pernyataan yang benar mengenai ekspirasi pada pernapasan perut dan pernapasan dada adalah....,"[""pernapasan perut diafragma relaksasi pernapasan dada otot antarusuk relaksasi"", ""pernapasan perut diagragma kontraksi pernapasan dada otot antarrusuk relaksasi"", ""pernapasan perut diagragma relaksasi pernapasan dada otot antarusuk kontraksi"", ""pernapasan perut otot dinding perut kontraksi pernapasan dada otot antarrusuk kontraksi"", ""pernapasan perut otot dinding perut kontraksi""]",5,A,12,0,0
+7355,Kimia,SMA,10.0,"Pada isotop unsur 26Fe56 dan 88Ra226, jumlah proton dan neutron kedua unsur secara berturut – turut adalah . .","[""(26, 30) : (88, 138)"", ""(26, 26) : (88, 138)"", ""(26, 56) : (88, 138)"", ""(26, 26) : (88, 88)"", ""(26, 30) : (88, 266)""]",5,A,19,4,0
+6948,Fisika,SMP,9.0,"Perhatikan pernyataan berikut!
+
+Muatan listrik yang sejenis saling tolak- menolak
+Benda bermuatan listrik positif jika jumlah elektron lebih banyak daripada jumlah proton
+Muatan listrik yang tidak sejenis tarik-menarik
+Benda bermuatan listrik negatif jika jumlah proton lebih banyak daripada jumlah elektron
+Sifat-sifat dari muatan listrik yang benar sesuai pernyataan adalah nomor ..","[""1 dan 2"", ""1 dan 3"", ""2 dan 3"", ""2 dan 4""]",4,B,51,0,0
+2628,Kimia,Seleksi PTN,12.0,"pada reaksi : NH3 + H2O ⇋ NH4+ + OH- , pasangan H2O dan NH3 adlaah pasangan asam basa konjugasi
+SEBAB
+menurut Bronsted-Lowry, asam adalah akseptor pasangan elektron bebas ","[""Pernyataan benar, sebab benar dan saling berhubungan"", ""Pernyataan benar, sebab benar, tetapi tidak berhubungan"", ""Pernyataan benar, sebab salah"", ""Pernyataan salah, sebab benar"", ""Pernyataan salah, sebab salah""]",5,E,29,5,0
+2565,Kimia,Seleksi PTN,12.0,"pembakaran ZnS(s) terjadi menurut reaksi
+2ZnS(s) + 3O2(g) →2ZnO(s) + 2SO2(g)
+Jika entalpi pembentukan standar ΔHf0 untuk ZnS(s), ZnO(s) dan SO2(g) berturut-turut adalah -202,9 kJ/mol, -348,0 kJ/mol, dan -296,4 kJ/mol, maka entalpi pembakaran 9,7 g ZnS(s) (Mr = 97) adalah...","[""-88,3 kJ"", ""+88,3 kJ"", ""-84,7 kJ"", ""+84,7 kJ"", ""-44,2 kJ""]",5,E,40,17,0
+4413,IPA,SMP,9.0,Jenis ayam berikut ini yang merupakan hasil persilangan beberapa jenis ayam unggul dari berbagai negara adalah ayam….,"[""jago"", ""hutan"", ""broiler"", ""kampung""]",4,C,17,0,0
+4388,IPA,SMP,8.0,"Seorang astronot di bumi beratnya 600 N. Bila percepatan gravitasi bulan 1/ 6 percepatan gravitasi bumi, maka berat astronot di bulan adalah .... ","[""100 N"", ""160 N"", ""200 N"", ""400 N""]",4,A,23,3,0
+6951,Fisika,SMP,9.0,"Berikut merupakan bagian dari elektroskop, kecuali......","[""kepala"", ""tangkai"", ""muatan listrik"", ""kaki""]",4,C,6,0,0
+7320,Kimia,SMA,10.0,"Seorang siswa melakukan praktikum yang data pengamatannya ada yang membau bahan kimia.Cara yang benar untuk membau adalah....
+","[""menutup mata selama membaunya"", ""mendekatkan bahan kimia ke hidung dan menghirupnya dalam-dalam"", ""menambahkan air sebelum membaunya"", ""memutar dan menggoyang bahan kimia agar baunya keluar"", ""mengibas-ngibaskan tangan di atas bahan kimia ke arah hidung""]",5,E,17,0,0
+7316,Kimia,SMA,10.0,Berikut ini yang membuktikan model atom Thomson tidak tepat adalah percobaan ….,"[""sinar katode"", ""hamburan sinar α pada lempeng tipis emas"", ""spektrum atom hidrogen"", ""tetes minyak milikan"", ""sinar kana""]",5,B,12,0,0
+6934,Fisika,SMP,9.0,"Peristiwa terjadinya perubahan frekuensi yang diterima pendengar akibat adanya perubahan gerak relatif sumber suara, merupakan bunyi dari ….","[""Getaran"", ""Bunyi"", ""Gelombang"", ""Efek Dopler"", ""Taraf Intensitas Bunyi""]",5,D,18,0,0
+3258,Biologi,Seleksi PTN,2023-10-12 00:00:00,"Pada fotosintesis, glukosa merupakan produk anabolisme
+SEBAB
+Pada fotosintesis, glukosa dengan enam atom C disusun dari senyawa beratom karbon satu","[""Jika pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab dan akibat"", ""Jika pernyataan benar, alasan benar, tapi keduanya tidak menunjukkan hubungan sebab dan akibat"", ""Jika pernyataan benar dan alasan salah"", ""Jika pernyataan salah dan alasan benar"", ""Jika pernyataan dan alasan keduanya salah""]",5,A,20,0,0
+3710,IPA,SD,5,Tanaman hidup merupakan  sebutan lain untuk.....,"[""tanaman hias"", ""tanaman perdu"", ""tanaman hidup"", ""tanaman obat""]",4,D,6,0,0
+2735,Biologi,SMA,10,Perubahan populasi di dalam ekosistem ditentukan oleh ....,"[""migrasi dan natalitas"", ""migrasi dan mortalitas"", ""migrasi, urbanisasi, dan natalitas"", ""natalitas dan mortalitas"", ""mortalitas, natalitas, dan migrasi""]",5,E,8,0,0
+4209,IPA,SMP,7.0,Berikut ini yang  bukan  merupakan organ penyusun sistem transportasi pada tumbuhan adalah …,"[""batang"", ""bunga"", ""akar"", ""daun""]",4,B,13,0,0
