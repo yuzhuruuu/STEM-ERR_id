@@ -1,0 +1,41 @@
+file,dimensi,kategori,n,akurasi,ci_bawah,ci_atas
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,mapel,Biologi,29,0.276,0.147,0.457
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,mapel,Fisika,14,0.214,0.076,0.476
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,mapel,IPA,33,0.212,0.107,0.378
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,mapel,Kimia,24,0.167,0.067,0.359
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,jenjang,SD,18,0.222,0.09,0.452
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,jenjang,SMA,34,0.265,0.146,0.431
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,jenjang,SMP,19,0.211,0.085,0.433
+hasil_TinyLlama-1.1B-Chat-v1.0_0shot_pilot.csv,jenjang,Seleksi PTN,29,0.172,0.076,0.345
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,mapel,Biologi,29,0.31,0.173,0.492
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,mapel,Fisika,14,0.357,0.163,0.612
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,mapel,IPA,33,0.485,0.325,0.648
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,mapel,Kimia,24,0.333,0.18,0.533
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,jenjang,SD,18,0.5,0.29,0.71
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,jenjang,SMA,34,0.441,0.289,0.605
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,jenjang,SMP,19,0.421,0.231,0.637
+hasil_Phi-3.5-mini-instruct_0shot_pilot.csv,jenjang,Seleksi PTN,29,0.207,0.098,0.384
+hasil_Qwen2.5-3B_0shot_pilot.csv,mapel,Biologi,29,0.345,0.199,0.527
+hasil_Qwen2.5-3B_0shot_pilot.csv,mapel,Fisika,14,0.429,0.214,0.674
+hasil_Qwen2.5-3B_0shot_pilot.csv,mapel,IPA,33,0.606,0.437,0.753
+hasil_Qwen2.5-3B_0shot_pilot.csv,mapel,Kimia,24,0.583,0.388,0.755
+hasil_Qwen2.5-3B_0shot_pilot.csv,jenjang,SD,18,0.611,0.386,0.797
+hasil_Qwen2.5-3B_0shot_pilot.csv,jenjang,SMA,34,0.529,0.367,0.685
+hasil_Qwen2.5-3B_0shot_pilot.csv,jenjang,SMP,19,0.579,0.363,0.769
+hasil_Qwen2.5-3B_0shot_pilot.csv,jenjang,Seleksi PTN,29,0.345,0.199,0.527
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,mapel,Biologi,29,0.31,0.173,0.492
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,mapel,Fisika,14,0.286,0.117,0.546
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,mapel,IPA,33,0.303,0.174,0.473
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,mapel,Kimia,24,0.208,0.092,0.405
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,jenjang,SD,18,0.278,0.125,0.509
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,jenjang,SMA,34,0.353,0.215,0.521
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,jenjang,SMP,19,0.316,0.154,0.54
+hasil_SmolLM2-1.7B-Instruct_0shot_pilot.csv,jenjang,Seleksi PTN,29,0.172,0.076,0.345
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,mapel,Biologi,29,0.207,0.098,0.384
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,mapel,Fisika,14,0.286,0.117,0.546
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,mapel,IPA,33,0.242,0.128,0.41
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,mapel,Kimia,24,0.333,0.18,0.533
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,jenjang,SD,18,0.167,0.058,0.392
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,jenjang,SMA,34,0.265,0.146,0.431
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,jenjang,SMP,19,0.316,0.154,0.54
+hasil_stablelm-zephyr-3b_0shot_pilot.csv,jenjang,Seleksi PTN,29,0.276,0.147,0.457
